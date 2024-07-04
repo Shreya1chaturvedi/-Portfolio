@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-ETIKA</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/smiling-girl-vector-portrait.png" alt="Shreya Chaturvedi" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Etika">Shreya Chaturvedi</h1>
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:chatshreya77@gmail.com" class="contact-link">chatshreya77@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917983783938" class="contact-link">+91 7983783938</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2005-07-30">May 30, 2005</time>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/shreya-chaturvedi-ba9567261/" target="_blank" class="social-link" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://leetcode.com/u/shreya_chaturvedi18/" target="_blank" class="social-link" aria-label="LeetCode">
+              <img src="./assets/images/icon-leetcode.png" alt="LeetCode" width="19">
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/Shreya1chaturvedi" target="_blank" class="social-link" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a dedicated Computer Science Engineering student at Banasthali University, maintaining a strong CGPA of <b>7/10</b>. Through practical experiences and coursework, I have developed a solid foundation in web development.
+            <br><br>
+            As a <b>Web Developer Intern</b> at Software intern, I honed my skills in <b>ReactJS, HTML, CSS, and JavaScript</b> to build and optimize user-friendly web applications, ensuring seamless experiences for users. My contributions to open-source projects demonstrate my proficiency in technologies like React.js and Redux.
+            <br><br>
+            My technical toolkit includes proficiency in languages such as <b>C++, C, Python, and Java</b>, along with experience in <b>SQL and MongoDB</b> for database management. Notable projects include the Universal Scheme Solutions Platform and the Music App developed using the MERN stack, showcasing my ability to translate theoretical knowledge into practical solutions.
+            <br><br>
+            I am committed to continuous learning and have earned <b>certifications</b> in MERN Stack and Python Technology, further enhancing my expertise. I am excited about leveraging my skills and experience to contribute effectively to innovative projects and collaborate with driven teams in the tech industry. If you want to know more about me, feel free to reach out to me on Discord, Twitter, or LinkedIn!
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  I can create websites and web applications. I have experience with ReactJS, Redux, NodeJS, and other libraries.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software development</h4>
+                <p class="service-item-text">
+                  I have knowledge of Software Development Methodologies, including Agile and Scrum, and can implement them in projects.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Vishesh" width="60" data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vivek Soni,  (TechWinners)</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Shreya did a great job. She was professional and created the application exactly as designed. Her effective communication skills, technical expertise in web development, eagerness to learn, and commitment to professional growth were notable. I highly recommend her to anyone looking for a web developer.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+            <button class="modal-close-btn" data-modal-close-btn></button> 
+        </div>
+      </article>
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+            <h2 class="h2 article-title">Resume</h2>
+        </header>
+    
+        <section class="timeline">
+    
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="book-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Education</h3>
+            </div>
+    
+            <ol class="timeline-list">
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Banasthali University, Jaipur, Rajasthan</h4>
+                    <span>2022 — 2026</span>
+                    <p class="timeline-text">Bachelor of Technology, Department of Computer Science and Engineering — CGPA: 7</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">The Oxford Academy, Rudrapur, Uttarakhand</h4>
+                    <span>2021 — 2022</span>
+                    <p class="timeline-text">High School Degree, CBSE — Percentage: 84</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">The Oxford Academy, Rudrapur, Uttarakhand</h4>
+                    <span>2019 — 2020</span>
+                    <p class="timeline-text">Matriculation, CBSE — Percentage: 89.2</p>
+                </li>
+    
+            </ol>
+    
+        </section>
+    
+        <section class="timeline">
+    
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Experience</h3>
+            </div>
+    
+            <ol class="timeline-list">
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Software Engineer Intern, TechWinners InfoSystem Pvt. Ltd.</h4>
+                    <span>May 15, 2024 — July 5, 2024</span>
+                    <p class="timeline-text">Developed, tested, and debugged software applications. Contributed to software design, development, and code reviews. Participated in troubleshooting and resolving software issues.</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">NCC Cadet, National Cadet Corps</h4>
+                    <span>Mar 2019 — Mar 2022</span>
+                    <p class="timeline-text">Attained certificate from NCC, 24 UK Girls Battalion. Cultivated leadership, discipline, teamwork, and resilience through rigorous training and activities.</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Open Source Contributor, Hacktoberfest</h4>
+                    <span>Oct 2023 — Nov 2023</span>
+                    <p class="timeline-text">Contributed to open-source projects, submitted pull requests, and assisted in issue resolution during Hacktoberfest.</p>
+                </li>
+    
+            </ol>
+    
+        </section>
+    
+        <section class="timeline">
+    
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="ribbon-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Achievements / Certifications</h3>
+            </div>
+    
+            <ol class="timeline-list">
+    
+                <li class="timeline-item">
+                    <p class="timeline-text">Solved 500+ DSA problems from Rapid Growth Problemset on various coding platforms.</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <p class="timeline-text">Won 30 hours Hackathon by Reskill, beating thousands of students.</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <p class="timeline-text">Participated in Geeks-for-Geeks’ HackFest Delhi and competed against thousands of developers.</p>
+                </li>
+    
+            </ol>
+    
+        </section>
+    
+        <section class="timeline">
+    
+            <div class="title-wrapper">
+                <div class="icon-box">
+                    <ion-icon name="code-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Projects</h3>
+            </div>
+    
+            <ol class="timeline-list">
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">School Management System</h4>
+                    <p class="timeline-text">React.js, Node.js, Express.js, MongoDB</p>
+                    <p class="timeline-text">Led the development of a comprehensive School Management System, prioritizing attendance tracking and fee processing. Managed the creation of a MERN stack-powered solution, streamlining administrative duties through efficient attendance and marks management.</p>
+                </li>
+    
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">House Price Prediction</h4>
+                    <p class="timeline-text">Python, Machine Learning</p>
+                    <p class="timeline-text">Developed regression model to predict house prices using features like bedrooms, square footage, location. Analyzed dataset, engineered features, and trained regression model for accurate price predictions. Implemented feature selection techniques to optimize model performance and enhance predictive accuracy.</p>
+                </li>
+    
+            </ol>
+    
+        </section>
+    
+        <section class="skill">
+    
+            <h3 class="h3 skills-title">My Skills</h3>
+    
+            <div class="skilled">
+                <div class="ski">
+                    <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" />
+                    </a>
+                    <a href="https://www.java.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" />
+                    </a>
+                    <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" />
+                    </a>
+                    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
+                    </a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+                    </a>
+                </div>
+                <div class="ski">
+                    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
+                    </a>
+                    <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
+                    </a>
+                    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+                    </a>
+                    <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
+                    </a>
+                    <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="tailwindcss" width="40" height="40" />
+                    </a>
+                </div>
+                <div class="ski">
+                    <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" />
+                    </a>
+                    <a href="https://www.mysql.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+                    </a>
+                    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="github" width="40" height="40" />
+                    </a>
+                    <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40" />
+                    </a>
+                </div>
+                <div class="ski">
+                    <a href="https://www.postman.com" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" />
+                    </a>
+                    <a href="https://developer.apple.com/xcode/" target="_blank" rel="noreferrer">
+                        <img class="Skilled" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" alt="xcode" width="40" height="40" />
+                    </a>
+                </div>
+            </div>
+    
+        </section>
+    
+    </article>
+    
+      
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="projects">
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+            </button>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href=" " target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Attedence.jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">School Management</h3>
+
+                <p class="project-category">MERN Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/Task.png"
+                    alt="chad_notifications" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">MERN project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python projects">
+              <a href=" " target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets//images/chat.png"
+                    alt="arrival" loading="lazy">
+
+                </figure>
+
+                <h3 class="project-title"> Texting</h3>
+
+                <p class="project-category">ReactJS Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href=" " target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/zero.png.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Zero Cross</h3>
+
+                <p class="project-category">JavaScript Project</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="backend projects">
+              <a href="" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img
+                    src="./assets/images/flipkart.png"
+                    alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Buyer(Flipkart Clone)</h3>
+
+                <p class="project-category">Html Css</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        
+        <section class="contact-form">
+
+          <h1 class="h3 form-title">Contact Form</h1>
+
+          <form action="#" class="form" data-form onsubmit="reset(); return false;">
+
+            <div class="input-wrapper">
+              <input type="text" id="fromName" name="fullname" class="form-input" placeholder="Full name" required
+                data-form-input>
+
+              <input type="email" id="fromEmail" name="email" class="form-input" placeholder="Email address" required
+                data-form-input>
+            </div>
+
+            <textarea id="message" name="message" class="form-input" placeholder="Your Message" required
+              data-form-input></textarea>
+
+            <button class="form-btn" type="submit" onclick="sendEmail()" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+  </main>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("wXD5OKQy4V5AakanG");
+    })();
+  </script>
+  <script>
+    function sendEmail() {
+      var params = {
+        from_name: document.getElementById("fromName").value,
+        email_id: document.getElementById("fromEmail").value,
+        message: document.getElementById("message").value
+      }
+      console.log(params);
+      emailjs.send("service_erqah3a", "template_18l2orf", params).then(
+        function (res) {
+          alert("Hey! Thanks for messaging me, I will get back to you soon! ;)");
+        }
+      )
+    }
+  </script>
+</body>
+
+</html>
